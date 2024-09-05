@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 69px;
+}
+.navbar li{
+    list-style: none;  
+    margin: 0 12px;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  main {
+    flex: 1 0 auto;
+  }
+  nav {
+    background-color: #ff9800; /* Orange color */
+  }
+  .header {
+    color: #ef6c00; /* Dark orange color */
+  }
+  .background-container {
+    background: url('https://img.freepik.com/free-photo/movie-background-collage_23-2149876030.jpg') no-repeat center center;
+    background-size: cover;
+    height: 456px; /* Adjust height as needed */
+    width: 100%;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  footer {
+    background-color: #f57f17; /* Darker orange for footer */
+  }
+  .centered-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
